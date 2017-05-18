@@ -10,7 +10,7 @@ body {
 }
 header {
 	width: 100%;
-	background-color: #efefef;
+	background-color: #eeeeee;
 	padding-top: 3%;
 }
 header h1 {
@@ -51,6 +51,12 @@ nav ul li a {
 }
 footer {
 	text-align: center;
+	background-color: #eeeeee;
+	padding: 5% 0 1% 0;
+}
+footer .footer-nav {
+	background-color: #eeeeee;
+	width: 100%;
 }
 /***** PORTOFLIO STYLES *****/
 .portfolio {
@@ -82,11 +88,11 @@ footer {
 		.intro span {
 			text-align: left;
 		}
-		nav ul li {
+		nav.main-nav ul li {
 			float: left;
 			margin: 0 auto;
 			width: 30%;
-			background-color: #efefef;
+			background-color: #eeeeee;
 		}
 		nav ul li a {
 			display: block;
@@ -111,8 +117,19 @@ footer {
 			width: 60%;
 			margin: 5% auto;
 		}
-		.footer-nav h4 {
-			display: inline-block;
+		nav.footer-nav {
+			text-transform: uppercase;
+		}
+		nav.footer-nav ul {
+						overflow: hidden;
+		}
+		nav.footer-nav li {
+			background-color: inherit;
+			margin: 0;
+			float: left;
+			width: 45%;
+			margin: %5 0 2% 0;
+
 		}
 		#student-name {
 			float: left;
