@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /***** GENERAL STYLES *****/
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -16,6 +17,11 @@ header {
 }
 header h1 {
 	margin-top: 0;
+	font-weight: 700;
+	font-size: 3em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
 }
 ul {
 	list-style-type: none;
@@ -34,12 +40,18 @@ a {
 	color: #444444;
 	font-weight: 700;
 	text-transform: uppercase;
+	transition: all .5s;
+}
+a:hover {
+	color: #FFA500;
+	text-decoration: underline;
 }
 hr {
 	width: 90%;
 }
 .intro-text-container {
-	text-align: left;
+	text-align: center;
+	margin: 0 0 20px 0;
 }
 /**** NAV STYLES ****/
 nav ul {
@@ -64,34 +76,53 @@ footer .footer-nav {
 	background-color: #eeeeee;
 	width: 100%;
 }
-/***** PORTOFLIO STYLES *****/
-.portfolio {
+/***** PORTOFLIO AND SKILLS STYLES *****/
+.portfolio, .skills {
 	text-align: center;
 	margin: 0 15px;
 	background-color: #fff;
 	padding: 1%;
+	transition: all .5s;
 }
-
+.portfolio-element:hover {
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(255,165,0,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(255,165,0,1);
+	box-shadow: 0px 0px 7px 2px rgba(255,165,0,1);
+}
+.portfolio-element h2:hover {
+	transition: all .5s;
+	color: #FFA500;
+}
+.skills {
+	margin-top: 3%;
+}
 
 /***** TABLET STYLES *****/
 @media screen and (min-width: 768px) {
 		.intro {
 			display: flex;
 			align-items: center;
+			flex-direction: row-reverse;
+
 		}
 		.intro-child {
 			width: 45%;
 			margin: 0 2.5%;
+
+		}
+		.intro-text-container {
+			text-align: left;
 		}
 
 		.intro span {
-			text-align: left;
+			
 		}
 		nav.main-nav ul li {
 			float: left;
 			margin: 0 auto;
-			width: 30%;
+			width: 25%;
 			background-color: #eeeeee;
+			padding: 10px 0 0 0;
 		}
 		nav ul li a {
 			display: block;
@@ -104,7 +135,7 @@ footer .footer-nav {
 			flex-wrap: wrap;
 			justify-content: center;
 		}
-		.flex-child {
+		.portfolio-element {
 			width: 45%;
 			margin: 2.5%;
 		}
@@ -147,7 +178,7 @@ footer .footer-nav {
 		.flex-container {
 
 		}
-		.flex-child {
+		.portfolio-element {
 			width: 29%;
 			margin: 1%;
 
