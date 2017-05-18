@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<header>
+			<header id="top">
 				<h1>Lars Breum</h1>
 				<nav>
 					<ul>
@@ -18,8 +18,12 @@
 					</ul>
 				</nav>
 				<div class="intro">
-					<img src="images/responsive-layout-profile.png" alt="dummy photo provided" class="profile-phto">
-					<p>Hi! I am a front-end develeport who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to show of my skills</p>
+					<div class="intro-text-container intro-child">
+						<span>Hi! I am a front-end develepor who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to show of my skills</span>
+					</div>
+					<div class="img-container intro-child">
+						<img src="images/responsive-layout-profile.png" alt="dummy photo provided" class="profile-photo">
+					</div>
 				</div>
 			</header>
 			<section class="portfolio">
@@ -62,8 +66,10 @@
 				<p>Phone: <a href="tel:(+45)12345678">12 34 56 78 (fake#)</a></p>
 				<p>E-mail: <a href="mailto:lars@lweb.dk">lars@lweb.dk</a></p>
 				<hr>
-				<h4>Lars Breum</h4>
-				<h4><a href="#/">Back To Top</a></h4>
+				<nav class="footer-nav">
+					<h4 id="student-name">Lars Breum</h4>
+					<h4 id="back-to-top"><a href="#top">Back To Top</a></h4>
+				</nav>
 			</footer>
 		<div>
 	</body>
