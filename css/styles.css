@@ -2,11 +2,12 @@
 /***** GENERAL STYLES *****/
 body {
 	font-family: 'Montserrat', sans-serif;
-	background-color: #fff;
+	background-color: #eeeeee;
 	margin: 0;
 }
 .container {
 	width: 100vw;
+	background-color: inherit;
 }
 header {
 	width: 100%;
@@ -34,7 +35,12 @@ a {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
+hr {
+	width: 90%;
+}
+.intro-text-container {
+	text-align: left;
+}
 /**** NAV STYLES ****/
 nav ul {
 	margin: 0;
@@ -61,17 +67,10 @@ footer .footer-nav {
 /***** PORTOFLIO STYLES *****/
 .portfolio {
 	text-align: center;
-	flex-wrap: wrap;
-	padding: 0 15px;
-
+	margin: 0 15px;
+	background-color: #fff;
+	padding: 1%;
 }
-.flex-container {
-
-}
-.flex-child {
-
-}
-
 
 
 /***** TABLET STYLES *****/
@@ -103,6 +102,7 @@ footer .footer-nav {
 		.flex-container {
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 		}
 		.flex-child {
 			width: 45%;
@@ -140,4 +140,16 @@ footer .footer-nav {
 			margin: 2% 10% 5% 0;
 		}
 
+}
+/***** PC STYLES *****/
+@media screen and (min-width: 1024px) {
+	/***** PORTFOLIO FLEX-BOX *****/
+		.flex-container {
+
+		}
+		.flex-child {
+			width: 29%;
+			margin: 1%;
+
+		}
 }
