@@ -63,7 +63,6 @@ hr {
 
 /**** NAV STYLES ****/
 nav ul li {
-	background-color: white;
 	margin: 0 15px 10px;
 	padding: 10px;
 }
@@ -101,6 +100,7 @@ footer .footer-nav {
 }
 .main-nav li {
 	box-shadow: 0px 0px 7px 2px rgba(255,165,0,0.8);
+	background-color: white;
 }
 
 /***** TABLET STYLES *****/
@@ -113,7 +113,7 @@ footer .footer-nav {
 		}
 		.intro-text-container {
 			text-align: left;
-			padding: 0;
+			padding: 5%;
 		}
 
 		.intro span {
@@ -211,5 +211,8 @@ footer .footer-nav {
 		header h1 {
 			float: left;
 			display: inline-block;
+		}
+		.intro-text-container {
+			padding: 0;
 		}
 }
