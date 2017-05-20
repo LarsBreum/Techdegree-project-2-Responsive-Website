@@ -102,6 +102,17 @@ footer .footer-nav {
 	margin-top: 3%;
 }
 
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.main-nav li {
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(255,165,0,0.8);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(255,165,0,0.8);
+	box-shadow: 0px 0px 7px 2px rgba(255,165,0,0.8);
+}
+
 /***** TABLET STYLES *****/
 @media screen and (min-width: 768px) {
 		.intro {
@@ -122,13 +133,20 @@ footer .footer-nav {
 		.intro span {
 			
 		}
+		.main-nav {
+			text-align: center;
+		}
 		nav.main-nav ul li {
 			float: left;
 			margin: 0 auto;
-			width: 25%;
-			background-color: initial;
-			padding: 10px 0 0 0;
-
+			width: 21%;
+			padding: 10px 0 10px 0;
+			margin: 0 2%;
+			display: inline-block;
+		}
+		nav.main-nav ul {
+			margin: 0 auto;
+			display: block;
 		}
 		nav ul li a {
 			display: block;
@@ -157,9 +175,7 @@ footer .footer-nav {
 		nav.footer-nav {
 			text-transform: uppercase;
 		}
-		nav.footer-nav ul {
-						overflow: hidden;
-		}
+		
 		nav.footer-nav li {
 			background-color: inherit;
 			margin: 0;
