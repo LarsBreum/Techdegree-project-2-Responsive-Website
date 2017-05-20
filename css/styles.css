@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 header * {
 	text-align: center;
@@ -59,15 +60,8 @@ a:hover {
 hr {
 	width: 90%;
 }
-.intro-text-container {
-	text-align: center;
-	padding: 0 0 20px 0;
-}
+
 /**** NAV STYLES ****/
-nav ul {
-	margin: 0;
-	padding: 0;
-}
 nav ul li {
 	background-color: white;
 	margin: 0 15px 10px;
@@ -121,13 +115,9 @@ footer .footer-nav {
 			flex-direction: row-reverse;
 
 		}
-		.intro-child {
-			width: 45%;
-			margin: 0 2.5%;
-
-		}
 		.intro-text-container {
 			text-align: left;
+			padding: 0 5%;
 		}
 
 		.intro span {
@@ -137,15 +127,13 @@ footer .footer-nav {
 			text-align: center;
 		}
 		nav.main-nav ul li {
-			float: left;
 			margin: 0 auto;
-			width: 21%;
+			width: 15%;
 			padding: 10px 0 10px 0;
 			margin: 0 2%;
 			display: inline-block;
 		}
 		nav.main-nav ul {
-			margin: 0 auto;
 			display: block;
 		}
 		nav ul li a {
@@ -204,5 +192,28 @@ footer .footer-nav {
 			width: 29%;
 			margin: 1%;
 
+		}
+		.header-container {
+			padding: 1% 5%;
+		}
+		nav.main-nav ul {
+			float: right;
+			width: 60%;
+		}
+		nav.main-nav ul li {
+			display: inline-block;
+			width: auto;
+			padding:  2% 3%;
+			height: auto;
+			background: initial;
+			box-shadow: none;
+		}
+		nav.main-nav ul li a {
+			color: white;
+			text-shadow: 3px 3px 5px #222;
+		}
+		header h1 {
+			float: left;
+			display: inline-block;
 		}
 }
