@@ -61,6 +61,10 @@ hr {
 	width: 90%;
 }
 
+.intro-text-container {
+	padding: 1%;
+}
+
 /**** NAV STYLES ****/
 nav ul li {
 	margin: 0 15px 10px;
@@ -70,6 +74,9 @@ footer {
 	text-align: center;
 	background-color: #eeeeee;
 	padding: 5% 0 1% 0;
+}
+footer p {
+	padding: 1%;
 }
 footer .footer-nav {
 	background-color: #eeeeee;
@@ -156,7 +163,7 @@ footer .footer-nav {
 		}
 		footer p {
 			width: 60%;
-			margin: 5% auto;
+			margin: 30px auto;
 		}
 		nav.footer-nav {
 			text-transform: uppercase;
