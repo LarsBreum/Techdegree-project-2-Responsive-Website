@@ -82,6 +82,19 @@ footer .footer-nav {
 	background-color: #eeeeee;
 	width: 100%;
 }
+nav.footer-nav {
+	text-transform: uppercase;
+	width: 90%;
+	margin: 0 auto;
+}
+.footer-nav #back-to-top {
+	float: right;
+	display: inline-block;
+}
+.footer-nav #student-name {
+	float: left;
+	display: inline-block;
+}
 /***** PORTOFLIO AND SKILLS STYLES *****/
 .portfolio, .skills {
 	text-align: center;
@@ -165,27 +178,7 @@ footer .footer-nav {
 			width: 60%;
 			margin: 30px auto;
 		}
-		nav.footer-nav {
-			text-transform: uppercase;
-		}
 		
-		nav.footer-nav li {
-			background-color: inherit;
-			margin: 0;
-			float: left;
-			width: 45%;
-			margin: %5 0 2% 0;
-
-		}
-		#student-name {
-			float: left;
-			margin: 2% 0 5% 10%;
-		}
-		#back-to-top {
-			float: right;
-			margin: 2% 10% 5% 0;
-		}
-
 }
 /***** PC STYLES *****/
 @media screen and (min-width: 1024px) {
