@@ -217,4 +217,9 @@ nav.footer-nav {
 		.intro-text-container {
 			padding: 0;
 		}
+	/**** footer ****/
+	footer p {
+		width: 60%;
+		margin: 2.5% auto;
+	}
 }
