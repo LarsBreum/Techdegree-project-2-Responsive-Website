@@ -128,6 +128,8 @@ nav.footer-nav {
 		.intro {
 			padding: 1% 3%;
 		}
+		/*I am using a float instead of flex-box
+		As to align the img and p at the top of the div */
 		.intro-text-container {
 			float: left;
 			display: inline;
@@ -136,13 +138,11 @@ nav.footer-nav {
 		.img-container img {
 			float: right;
 		}
+		/* changed from span to p */
 		.intro-text-container p {
 			text-align: left;
 		}
 
-		.intro p {
-			
-		}
 		.main-nav {
 			text-align: center;
 		}
@@ -222,6 +222,7 @@ nav.footer-nav {
 			padding: 0;
 		}
 }
+/*added clearfix for the .intro div */
 .clearfix:after {
   content: "";
   display: table;
