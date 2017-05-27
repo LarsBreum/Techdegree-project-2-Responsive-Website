@@ -91,6 +91,7 @@ nav.footer-nav {
 	float: left;
 	display: inline-block;
 }
+/* hides the footer nav on small screens*/
 .footer-nav ul {
 	display: none;
 }
@@ -161,9 +162,11 @@ nav.footer-nav {
 		nav ul li a {
 			display: block;
 		}
+		/*hides back to top link on large screens */
 		.footer-nav #back-to-top {
 			display: none;
 		}
+		/*shows footer nav on large screens*/
 		.footer-nav ul {
 			display: initial;
 			float: right;
