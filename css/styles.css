@@ -95,6 +95,9 @@ nav.footer-nav {
 	float: left;
 	display: inline-block;
 }
+.footer-nav ul {
+	display: none;
+}
 /***** PORTOFLIO AND SKILLS STYLES *****/
 .portfolio, .skills {
 	text-align: center;
@@ -160,6 +163,19 @@ nav.footer-nav {
 		}
 		nav ul li a {
 			display: block;
+		}
+		.footer-nav #back-to-top {
+			display: none;
+		}
+		.footer-nav ul {
+			display: initial;
+			float: right;
+		}
+		.footer-nav ul li {
+			display: inline-block;
+			margin: 0 5px;
+			padding: 0;
+
 		}
 
 		/***** PORTFOLIO FLEX-BOX *****/
