@@ -1,5 +1,4 @@
 # Techdegree-project-2
-Treehouse project 2
+This is the second project I was tasked with by the Treehouse techdegree.
 
-Created for the Treehouse Techdegree.
-This is the second project, where I had to create a responsive website - based on a couple of mockups Treehouse provided.
+I was tasked woth creating a responsive mobile first design. I had to match the mockups general style and spacing, while still showing off some extra skills.
